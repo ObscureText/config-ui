@@ -6,6 +6,7 @@ const messages: Record<string, string> = {
     CONFIG_ERROR_UNAUTHORIZED: "Your session is invalid. Please sign in again.",
     CONFIG_ERROR_TOKEN_EXPIRED: "Your session expired. Please sign in again.",
     CONFIG_ERROR_NOT_FOUND: "No configuration was found for this source.",
+    CONFIG_ERROR_ALREADY_EXISTS: "A configuration was created for this source already. Reloading it now.",
     CONFIG_ERROR_INTERNAL_SERVER_ERROR: "We couldn't process your request. Please try again.",
 };
 
