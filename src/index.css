@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+    color: #e9edf7;
+    background: #0b0e15;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    --bg-color: #0b0e15;
+    --bg-card: #131925;
+    --bg-input: #0d121c;
+    --text-main: #e9edf7;
+    --text-muted: #8a94a8;
+    --text-dim: #596477;
+    --border-color: #252d3c;
+    --border-focus: #82d5bd;
+    --primary: #63c9aa;
+    --primary-hover: #46b897;
+    --primary-light: rgba(99, 201, 170, .13);
+    --accent-purple: #9b8cf5;
+    --accent-cyan: #64c8de;
+    --accent-emerald: #63c9aa;
+    --accent-rose: #ff7b86;
+    --radius-sm: 7px;
+    --radius-md: 11px;
+    --radius-lg: 18px;
+    --radius-full: 999px;
+    --shadow-lg: 0 24px 70px rgba(0, 0, 0, .38);
+    --shadow-glow: 0 0 34px rgba(99, 201, 170, .11);
+}
+
+* { box-sizing: border-box; }
+html, body, #root { min-width: 320px; min-height: 100%; margin: 0; }
+body { min-height: 100vh; background: #0b0e15; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+.spinner { display: inline-block; width: 23px; height: 23px; border: 2px solid rgba(99,201,170,.22); border-top-color: #76dfbd; border-radius: 50%; animation: spin .8s linear infinite; }
+.spinner-lg { width: 36px; height: 36px; }
+@keyframes spin { to { transform: rotate(360deg); } }
