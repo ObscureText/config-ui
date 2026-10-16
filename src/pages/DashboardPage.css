@@ -647,6 +647,9 @@
 }
 .detail-loading,
 .detail-error {
+    flex: 1 1 auto;
+    width: 100%;
+    box-sizing: border-box;
     min-height: 0;
     display: flex;
     flex-direction: column;
